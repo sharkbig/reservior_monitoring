@@ -1,6 +1,7 @@
 import gdal,ogr, osr
 import glob
 import os
+import numpy as np 
 
 fname=glob.iglob("TIFF/*")
 dam_wkt="POLYGON((120.5807 23.1582,120.5291 23.0818,120.5519 23.0707,120.5778 23.1337,120.5879 23.1527,120.5807 23.1582))"
